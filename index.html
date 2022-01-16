@@ -62,7 +62,7 @@
       <section class="hero hero-background">
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button class="button" type="button">Заказать услугу</button>
+          <button data-modal-open class="button" type="button">Заказать услугу</button>
         </div>
       </section>
 
@@ -123,29 +123,28 @@
           <h2 class="main-work-title">Чем мы занимаемся</h2>
           <ul class="main-work-list list">
             <li class="work-list-item">
-					<div class="work-list-img">
-              <img src="./images/what_are_we_doing_1.jpg" alt="Разработка сайта" width="370" />
-				  <div class="work-list-overlay">
-					<p class="work-overlay-txt">Десктопные приложения</p>
-				</div>
-					</div>
-						
+              <div class="work-list-img">
+                <img src="./images/what_are_we_doing_1.jpg" alt="Разработка сайта" width="370" />
+                <div class="work-list-overlay">
+                  <p class="work-overlay-txt">Десктопные приложения</p>
+                </div>
+              </div>
             </li>
             <li class="work-list-item">
-					<div class="work-list-img">
-              <img src="./images/what_are_we_doing_2.jpg" alt="Оптимизация сайта" width="370" />
-				  <div class="work-list-overlay">
-					<p class="work-overlay-txt">Мобильные приложения</p>
-				</div>
-					</div>
+              <div class="work-list-img">
+                <img src="./images/what_are_we_doing_2.jpg" alt="Оптимизация сайта" width="370" />
+                <div class="work-list-overlay">
+                  <p class="work-overlay-txt">Мобильные приложения</p>
+                </div>
+              </div>
             </li>
             <li class="work-list-item">
-					<div class="work-list-img">
-              <img src="./images/what_are_we_doing_3.jpg" alt="Дизайн сайта" width="370" />
-				  <div class="work-list-overlay">
-					<p class="work-overlay-txt">Дизайнерские решения</p>
-				</div>
-					</div>
+              <div class="work-list-img">
+                <img src="./images/what_are_we_doing_3.jpg" alt="Дизайн сайта" width="370" />
+                <div class="work-list-overlay">
+                  <p class="work-overlay-txt">Дизайнерские решения</p>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -368,65 +367,77 @@
     <!----------------Футер------------>
     <footer class="footer">
       <div class="container">
-			<div class="footer-general">
-				<div class="footer-left">
-        <a class="logo-footer no-link" href="./index.html"
-          ><span class="logo-web">Web</span>Studio</a>
-        <address class="address">
-          <ul class="adress-list list">
-            <li class="adress-list-item">
-              <a
-                class="adress-map no-link"
-                href="https://goo.gl/maps/NMQGQq8gnhBhWBcv5"
-                target="_blank"
-                rel="noopener norferrer"
-                >г. Киев, пр-т Леси Украинки,26</a
-              >
-            </li>
-            <li class="adress-list-item">
-              <a class="link no-link" href="mailto:info@example.com">info@example.com</a>
-            </li>
-            <li class="adress-list-item">
-              <a class="link no-link" href="tel:+380991111111">+38 099 111 11 11</a>
-            </li>
-          </ul>
-        </address>
-				</div>
-				<div class="footer-central">
-					<p class="footer-central-title">Присоединяйтесь</p>
-					<ul class="footer-social-list list">
-						<li class="footer-social-item">
-						  <a href="" class="footer-social-link">
-							 <svg class="footer-social-icon" width="20" height="20">
-								<use href="./images/symbol-defs.svg#icon-instagram"></use>
-							 </svg>
-						  </a>
-						</li>
-						<li class="footer-social-item">
-						  <a href="" class="footer-social-link">
-							 <svg class="footer-social-icon" width="20" height="20">
-								<use href="./images/symbol-defs.svg#icon-twitter"></use>
-							 </svg>
-						  </a>
-						</li>
-						<li class="footer-social-item">
-						  <a href="" class="footer-social-link">
-							 <svg class="footer-social-icon" width="20" height="20">
-								<use href="./images/symbol-defs.svg#icon-facebook"></use>
-							 </svg>
-						  </a>
-						</li>
-						<li class="footer-social-item">
-						  <a href="" class="footer-social-link">
-							 <svg class="footer-social-icon" width="20" height="20">
-								<use href="./images/symbol-defs.svg#icon-linkedin"></use>
-							 </svg>
-						  </a>
-						</li>
-					 </ul>
-				</div>
-			</div>
+        <div class="footer-general">
+          <div class="footer-left">
+            <a class="logo-footer no-link" href="./index.html"
+              ><span class="logo-web">Web</span>Studio</a
+            >
+            <address class="address">
+              <ul class="adress-list list">
+                <li class="adress-list-item">
+                  <a
+                    class="adress-map no-link"
+                    href="https://goo.gl/maps/NMQGQq8gnhBhWBcv5"
+                    target="_blank"
+                    rel="noopener norferrer"
+                    >г. Киев, пр-т Леси Украинки,26</a
+                  >
+                </li>
+                <li class="adress-list-item">
+                  <a class="link no-link" href="mailto:info@example.com">info@example.com</a>
+                </li>
+                <li class="adress-list-item">
+                  <a class="link no-link" href="tel:+380991111111">+38 099 111 11 11</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="footer-central">
+            <p class="footer-central-title">Присоединяйтесь</p>
+            <ul class="footer-social-list list">
+              <li class="footer-social-item">
+                <a href="" class="footer-social-link">
+                  <svg class="footer-social-icon" width="20" height="20">
+                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a href="" class="footer-social-link">
+                  <svg class="footer-social-icon" width="20" height="20">
+                    <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a href="" class="footer-social-link">
+                  <svg class="footer-social-icon" width="20" height="20">
+                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a href="" class="footer-social-link">
+                  <svg class="footer-social-icon" width="20" height="20">
+                    <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
+    <!------------ Modal window ------------->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+          <svg width="18" height="18">
+            <use href="./images/symbol-defs.svg#icon-modal-close-1"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
